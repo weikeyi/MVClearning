@@ -3,7 +3,7 @@ import { PrismaDB } from "../db/index"
 import { UserDto } from "./user.dto"
 import { plainToClass } from "class-transformer"
 import { validate } from "class-validator"
-import e from "express"
+import express from "express"
 
 @injectable()
 export class UserService {
