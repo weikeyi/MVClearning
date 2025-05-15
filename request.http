@@ -1,0 +1,10 @@
+# POST http://localhost:3000/user/create HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "username": "JohnDo22e21",
+#     "email": "sae213323123d@gmail.com"
+# }
+
+GET http://localhost:3000/user/index?a=333 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcm5hbWUiOiJKb2huRG8yMmUyMSIsImVtYWlsIjoic2FlMjEzMzIzMTIzZEBnbWFpbC5jb20iLCJpYXQiOjE3NDU3NDkzMDksImV4cCI6MTc0NTc1MjkwOX0.gTDbImAkXJl8ZSE5MY__LNk2b78uQ96XZvmQ9CsgLl4
